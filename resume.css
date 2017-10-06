@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Anhdeptrai;
+    src: url(fonts/khuong.ttf);
+}
+body{
+    background-image: url(images/rainbow.gif);
+    background-color: #9398d8;
+    background-size: 100%;
+    background-repeat:no-repeat; 
+    background-attachment: fixed;
+    color: black;
+}
+h1{
+    font-family: "Anhdeptrai";
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+#nav li {
+    float: right;
+}
+    
+#nav li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+    #nav li a:hover {
+    background-color: #111;
+    color: red;
+}
+#nav li a:active{
+     background-color: red;
+     color:black;
+}
+
+#bits{
+    border:solid red 3px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+    padding: 15px;
+    border-image-width:100px;
+}
+#levi{
+    list-style-type: none;
+    margin: -8px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: white;
+}
