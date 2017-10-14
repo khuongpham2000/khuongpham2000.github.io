@@ -10,13 +10,28 @@ body{
     background-attachment: fixed;
     color: black;
 }
+#bts{
+border: solid red 3px;
+    margin: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 75px;
+    padding-top: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    text-align: center;
+}
+
 h1{
     font-family: "Anhdeptrai";
 }
 #home{
     color:yellow;
     font-family: "Anhdeptrai";
-    line-height: 350.7px;
+    line-height: 200.7px;
     position: absolute;
     top: 50%;
     transform: translateY(-70%);
@@ -38,7 +53,7 @@ h1{
     display: block;
     color: yellow;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 18px;
 }
